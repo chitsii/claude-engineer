@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+anthropic = "*"
+colorama = "*"
+pygments = "*"
+tavily-python = "*"
+python-dotenv = "*"
+pillow = "*"
+openai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
